@@ -49,7 +49,7 @@ export default async function PokemonPage({ params }: Params) {
 
   return (
     <div className="flex mt-5 flex-col items-center text-slate-800">
-      <div className="relative flex flex-col items-center rounded-[20px] w-[700px] mx-auto bg-white bg-clip-border  shadow-lg  p-3">
+      <div className="relative flex flex-col items-center rounded-[20px] w-[90%] lg:w-[700px] mx-auto bg-white bg-clip-border  shadow-lg  p-3">
         <div className="mt-2 mb-8 w-full">
           <h1 className="px-2 text-xl font-bold text-slate-700 capitalize">
             #{pokemon.id} {pokemon.name}
@@ -72,7 +72,7 @@ export default async function PokemonPage({ params }: Params) {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4 px-2 w-full">
+        <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-4 px-2 w-full ">
           <div className="flex flex-col items-start justify-center rounded-2xl bg-white bg-clip-border px-3 py-4  drop-shadow-lg ">
             <p className="text-sm text-gray-600">Types</p>
             <div className="text-base font-medium text-navy-700 flex">
