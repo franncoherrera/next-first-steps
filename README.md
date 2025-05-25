@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 Next Dashboard Pokemon - Primeros pasos
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+## 💻 Demo
+
+[Demo en línea]([https://mi-dashboard-next.netlify.app](https://next-first-steps-sable-one.vercel.app/dashboard/main))
+
+---
+
+## ✨ Características
+
+- Páginas estáticas generadas con **Next.js**.
+- Dashboard con:
+  - 🔢 Contador manejado con **Redux**.
+  - 🗂 Vista separada para el contador (ruta dedicada).
+- Tarjetas de **Pokémon** obtenidas desde una PokeAPI.
+  - ⭐ Agregar a favoritos usando Redux.
+  - ❤️ Vista de favoritos persistente.
+- Diseño con **Tailwind CSS**.
+
+---
+
+## 🛠️ Instalación
+
+Sigue estos pasos para clonar y ejecutar la aplicación localmente:
 
 ```bash
+# 1. Clona el repositorio
+git clone https://github.com/franncoherrera/next-first-steps
+
+# 2. Entra a la carpeta del proyecto
+cd next-first-steps
+
+# 3. Instala las dependencias
+npm install
+
+# 4. Ejecuta la app en modo desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologías
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework de React con soporte para SSR y generación estática.
+- **React**: Librería para construir interfaces de usuario.
+- **Redux Toolkit**: Para el manejo eficiente del estado global.
+- **Tailwind CSS**: Framework de utilidades para estilizar rápidamente.
+- **PokéAPI**: API pública para obtener información de Pokémon.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
