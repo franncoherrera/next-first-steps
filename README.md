@@ -27,7 +27,7 @@ Sigue estos pasos para clonar y ejecutar la aplicación localmente:
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/tuusuario/next-dashboard-pokemon.git
+git clone https://github.com/franncoherrera/next-first-steps
 
 # 2. Entra a la carpeta del proyecto
 cd next-first-steps
