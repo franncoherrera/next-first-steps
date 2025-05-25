@@ -4,7 +4,7 @@
 
 ## 💻 Demo
 
-[Demo en línea]([https://mi-dashboard-next.netlify.app](https://next-first-steps-sable-one.vercel.app/dashboard/main))
+[Demo en línea](https://next-first-steps-sable-one.vercel.app/dashboard/main)
 
 ---
 
