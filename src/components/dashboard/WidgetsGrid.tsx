@@ -7,7 +7,7 @@ export const WidgetsGrid = () => {
   const isCart = useAppSelector((state) => state.counter.count);
 
   return (
-    <div className="flex flex-wrap p-2 items-center justify-center">
+    <div className="flex flex-wrap p-6 items-center justify-center">
       <SimpleWidget
         title={`${isCart}`}
         subTitle="Productos agregados"

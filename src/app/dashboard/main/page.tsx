@@ -8,8 +8,9 @@ export const metadata = {
 export default function MainPage() {
   return (
     <div className="text-black p-2">
-      <h1 className="mt-2 text-3xl">Dashboard</h1>
-      <span className="text-xl">Información general</span>
+      <div className="flex justify-center align-baseline">
+        <span className="text-3xl ml-1">Información general</span>
+      </div>
       <WidgetsGrid />
     </div>
   );
