@@ -77,7 +77,7 @@ export default async function PokemonPage({ params }: Params) {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-4 px-2 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-4 md:px-2 w-full">
           <div className="flex flex-col items-start justify-center rounded-2xl bg-white bg-clip-border px-3 py-4  drop-shadow-lg ">
             <p className="text-sm text-gray-600">Types</p>
             <div className="text-base font-medium text-navy-700 flex">
