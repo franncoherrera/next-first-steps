@@ -4,7 +4,7 @@
 
 ## 💻 Demo
 
-[Demo en línea]([https://mi-dashboard-next.netlify.app](https://next-first-steps-sable-one.vercel.app/dashboard/main))
+[Demo en línea](https://next-first-steps-sable-one.vercel.app/dashboard/main)
 
 ---
 
@@ -41,9 +41,9 @@ npm run dev
 
 ## 🚀 Tecnologías
 
-- **Next.js**: Framework de React con soporte para SSR y generación estática.
-- **React**: Librería para construir interfaces de usuario.
-- **Redux Toolkit**: Para el manejo eficiente del estado global.
-- **Tailwind CSS**: Framework de utilidades para estilizar rápidamente.
+- **Next.js**
+- **React**
+- **Redux Toolkit**
+- **Tailwind CSS**
 - **PokéAPI**: API pública para obtener información de Pokémon.
 
