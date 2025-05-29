@@ -38,7 +38,7 @@ export const Sidebar = () => {
         className={`
           bg-gray-900 min-h-screen z-40 text-slate-300 fixed top-0 transform transition-transform duration-300 ease-in-out left-10
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
-          md:translate-x-0 md:relative md:w-64
+          md:translate-x-0 md:w-64
         `}
         style={{ width: "300px" }}
       >
