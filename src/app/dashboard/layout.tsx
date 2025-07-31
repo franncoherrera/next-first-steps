@@ -1,4 +1,4 @@
-import { Sidebar } from "../../components";
+import { Sidebar, TopMenu } from "@/components";
 
 export default function DashboardLayout({
   children,
@@ -6,11 +6,12 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="bg-slate-100 overflow-y-scroll w-screen h-screen antialiased text-slate-300 selection:bg-blue-600 selection:text-white">
-      <div className="flex h-full">
-        <Sidebar />
-        <div className="w-full md:ml-[340px] ml-[40px] text-slate-900">{children}</div>
+    <>
+      <Sidebar />
+      <div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] min-h-screen">
+        <TopMenu />
+        <div className="px-6 pt-6">{children}</div>
       </div>
-    </div>
+    </>
   );
 }
