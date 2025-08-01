@@ -4,6 +4,7 @@ import { CiLogout } from "react-icons/ci";
 import {
   IoCalendarOutline,
   IoCheckboxOutline,
+  IoCodeWorkingOutline,
   IoListCircleOutline,
 } from "react-icons/io5";
 import { SidebarItem } from "./SidebarItem";
@@ -23,6 +24,11 @@ const menuItems = [
     icon: <IoListCircleOutline />,
     title: "Server Actions",
     path: "/dashboard/server-todos",
+  },
+  {
+    icon: <IoCodeWorkingOutline />,
+    title: "Cookies",
+    path: "/dashboard/cookies",
   },
 ];
 
@@ -45,7 +51,7 @@ export const Sidebar = () => {
         <div className="mt-8 text-center">
           <Image
             src="/persona.jpg"
-            alt=""
+            alt="Logo"
             className="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28"
             width={150}
             height={150}
